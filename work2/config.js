@@ -21,6 +21,6 @@ function loop() {
 
 function draw() {
 	ctx.strokeStyle = 'rgb(215,215,55)'
-	ctx.strokeRect(innerWidth/2,innerHeight/2,200,150);
+	ctx.strokeRect(innerWidth/2-100,innerHeight/2-75,200,150);
 
 }

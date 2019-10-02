@@ -22,7 +22,7 @@ function loop() {
 function draw() {
 	ctx.strokeStyle = 'rgb(0,0,0)'
 	ctx.beginPath()
-	ctx.moveTo(939,484);
+	ctx.moveTo(innerWidth/2,innerHeight/3);
 	ctx.lineTo(939,400);
 		ctx.lineTo(850,400);
 			ctx.lineTo(850,484);
